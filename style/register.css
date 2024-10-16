@@ -1,0 +1,35 @@
+.register img{
+    height: 50px;
+}
+.register input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 8px 10px 10px 5px;
+    margin-bottom: 25px;
+}
+.register .consent{
+    color:green;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.check{
+    display: flex;
+    column-gap: 20px;
+}
+
+.register button{
+    background-color: #21c661;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    color:white;
+}
+.register button:hover{
+    background-color: #169c49;
+    color:white;
+}
+.register-img img{
+    object-fit: contain;
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+.login img{
+    height: 50px;
+}
+.login input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 8px 10px 10px 5px;
+    margin-bottom: 25px;
+}
+.login .consent{
+    color:green;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.check{
+    display: flex;
+    column-gap: 20px;
+}
+
+.login button{
+    border-radius: 2px;
+    font-size: 0.9rem;
+    color:white;
+}
+.login-img img{
+    object-fit: contain;
+    width: 100%;
+}
